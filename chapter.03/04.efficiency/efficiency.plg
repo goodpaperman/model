@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: efficiency - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP22D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/efficiency.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP22D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP22E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/efficiency.pdb" /debug /machine:I386 /out:"Debug/efficiency.exe" /pdbtype:sept 
+".\Debug\efficiency.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP22E.tmp"
+<h3>Output Window</h3>
+Compiling...
+efficiency.cpp
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(15) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(15) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(16) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(16) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(16) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(31) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(31) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(32) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(32) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(32) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(46) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(46) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(47) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(47) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(47) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(75) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(75) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(76) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(76) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(76) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(107) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(107) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(108) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(108) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(108) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(152) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(152) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(153) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(153) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(153) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(206) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(206) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(207) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(207) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(207) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(251) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(251) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(252) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(252) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(252) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(305) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(305) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(306) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(306) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(306) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(350) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(350) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(351) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(351) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(351) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(404) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(404) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(405) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(405) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\04.efficiency\efficiency.cpp(405) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+Linking...
+
+
+
+<h3>Results</h3>
+efficiency.exe - 0 error(s), 55 warning(s)
+</pre>
+</body>
+</html>

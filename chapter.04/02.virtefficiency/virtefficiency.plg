@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: virtefficiency - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP186.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/virtefficiency.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP186.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP187.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/virtefficiency.pdb" /debug /machine:I386 /out:"Debug/virtefficiency.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\virtefficiency.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP187.tmp"
+<h3>Output Window</h3>
+Compiling...
+virtefficiency.cpp
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(31) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(31) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(32) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(32) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(32) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(56) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(56) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(57) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(57) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(57) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(61) : error C2664: 'cross_product' : cannot convert parameter 1 from 'class main::Point3d' to 'const class Point3d &'
+        Reason: cannot convert from 'class main::Point3d' to 'const class Point3d'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(74) : error C2079: 'pC' uses undefined class 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2228: left of '.x' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2228: left of '.y' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2228: left of '.z' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2228: left of '.z' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(75) : error C2228: left of '.y' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2228: left of '.y' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2228: left of '.z' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2228: left of '.x' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2228: left of '.x' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(76) : error C2228: left of '.z' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2228: left of '.z' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2228: left of '.x' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2228: left of '.y' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2228: left of '.y' must have class/struct/union type
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2027: use of undefined type 'Point3d'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(8) : see declaration of 'Point3d'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\02.virtefficiency\virtefficiency.cpp(77) : error C2228: left of '.x' must have class/struct/union type
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+virtefficiency.exe - 29 error(s), 10 warning(s)
+</pre>
+</body>
+</html>

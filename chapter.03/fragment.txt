@@ -1,0 +1,54 @@
+
+    {
+        class Point3d
+        {
+        public:
+            Point3d(float xx = 0.0, float yy = 0.0, float zz = 0.0) 
+                : _x(xx), _y(yy), _z(zz) { } 
+
+        public:
+            float _x, _y, _z; 
+        }; 
+
+        Point3d pB(1.725, 0.875, 0.478); 
+        Point3d pA(0.315, 0.317, 0.838); 
+        float* ax = &pA._x, *ay = &pA._y, *az = &pA._z; 
+        float* bx = &pB._x, *by = &pB._y, *bz = &pB._z; 
+
+        for(i=0; i<10000000; i++)
+        {
+            *bx = *ax - *bz; 
+            *by = *ay + *bx; 
+            *bz = *az + *by; 
+        }
+    }
+
+    tick1 = GetTickCount(); 
+    printf("pointer to member data class spend %d.\n", tick1-tick2); 
+
+    {
+        class Point3d
+        {
+        public:
+            Point3d(float xx = 0.0, float yy = 0.0, float zz = 0.0) 
+                : _x(xx), _y(yy), _z(zz) { } 
+
+        public:
+            float _x, _y, _z; 
+        }; 
+
+        Point3d pB(1.725, 0.875, 0.478); 
+        Point3d pA(0.315, 0.317, 0.838); 
+        float Point3d::* ax = &Point3d::_x, *ay = &Point3d::_y, *az = &Point3d::_z; 
+        float Point3d::* bx = &Point3d::_x, *by = &Point3d::_y, *bz = &Point3d::_z; 
+
+        for(i=0; i<10000000; i++)
+        {
+            pB.*bx = pA.*ax - pB.*bz; 
+            pB.*by = pA.*ay + pB.*bx; 
+            pB.*bz = pA.*az + pB.*by; 
+        }
+    }
+
+    tick2 = GetTickCount(); 
+    printf("pointer to member data class spend %d.\n", tick2-tick1); 

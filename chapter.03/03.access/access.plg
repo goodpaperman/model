@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: access - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP176.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/access.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\03.access\access.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP176.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP177.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/access.pdb" /debug /machine:I386 /out:"Debug/access.exe" /pdbtype:sept 
+".\Debug\access.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP177.tmp"
+<h3>Output Window</h3>
+Compiling...
+access.cpp
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\03.access\access.cpp(26) : error C2296: '<' : illegal, left operand has type 'float Point3d::*'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\03.access\access.cpp(32) : see reference to function template instantiation 'char *__cdecl access_order(float Point3d::*,float Point3d::*)' being compiled
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\03.access\access.cpp(26) : error C2297: '<' : illegal, right operand has type 'float Point3d::*'
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.03\03.access\access.cpp(32) : see reference to function template instantiation 'char *__cdecl access_order(float Point3d::*,float Point3d::*)' being compiled
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+access.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

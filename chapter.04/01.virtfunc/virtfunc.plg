@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: virtfunc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP129.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/virtfunc.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\01.virtfunc\virtfunc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP129.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP12A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/virtfunc.pdb" /debug /machine:I386 /out:"Debug/virtfunc.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\virtfunc.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP12A.tmp"
+<h3>Output Window</h3>
+Compiling...
+virtfunc.cpp
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\01.virtfunc\virtfunc.cpp(33) : error C2555: 'Derived::clone' : overriding virtual function differs from 'Base1::clone' only by return type or calling convention
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\01.virtfunc\virtfunc.cpp(7) : see declaration of 'Base1'
+E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\01.virtfunc\virtfunc.cpp(33) : error C2555: 'Derived::clone' : overriding virtual function differs from 'Base2::clone' only by return type or calling convention
+        E:\codes\cpp\01.lippman.inside the cpp object model\chapter.04\01.virtfunc\virtfunc.cpp(18) : see declaration of 'Base2'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+virtfunc.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
